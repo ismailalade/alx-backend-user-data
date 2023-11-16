@@ -1,18 +1,18 @@
 #!/usr/bin/env python3
+"""_summary_
 """
-User model
-"""
-from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy import Column, String, Integer
 
+
+from sqlalchemy import Column, Integer, String
+from sqlalchemy.ext.declarative import declarative_base
 Base = declarative_base()
 
 
 class User(Base):
-    """User model
+    """_summary_
 
     Args:
-        Base (class): declarative base from sqlalchemy
+        Base (_type_): _description_
     """
     __tablename__ = 'users'
 
